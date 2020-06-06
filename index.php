@@ -1,6 +1,6 @@
 <?php
 
-var_dump($_SERVER['REMOTE_ADDR']);
+var_dump($_SERVER);
 if ($_SERVER['REMOTE_ADDR'] != "51.9.247.60") exit("Forbidden");
 
 require_once __DIR__ . '/lib/rssbridge.php';
