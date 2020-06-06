@@ -1,5 +1,6 @@
 <?php
 
+echo $_SERVER['REMOTE_ADDR'] . "<br>\n";
 if ($_SERVER['REMOTE_ADDR'] != "51.9.247.60") exit("Forbidden");
 
 require_once __DIR__ . '/lib/rssbridge.php';
